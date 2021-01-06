@@ -1,0 +1,14 @@
+[Unit]
+Description=lichess-bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Environment=
+Type=simple
+User=eguneys
+ExecStart=yarn prod
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
