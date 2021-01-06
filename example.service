@@ -8,6 +8,7 @@ Environment=
 Type=simple
 User=eguneys
 ExecStart=yarn prod
+WorkingDirectory=/home/eguneys/openingsexercise/
 Restart=always
 
 [Install]
